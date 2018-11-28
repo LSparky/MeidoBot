@@ -3,10 +3,7 @@ import asyncio
 import json
 from discord.ext import commands
 
-startup_extensions = [
-"cogs.events",
-"cogs.no_erp"
-]
+startup_extensions = ['Clever']
 
 client = discord.Client()
 
@@ -22,9 +19,23 @@ client = commands.Bot(command_prefix=('maid.'),
 					activity=discord.Game("with Maids"))
 
 client.remove_command('help')
-client.load_extension("jishaku")
+#client.load_extension("jishaku")
+
+@client.command()
+async def load(extension):
+	try:
+			client.load_extension(extension)
+	except Exception as e:
+				exc = '{}: {}'.format(type(e).__name__, e)
+				print('Failed to load extension {}\n{}'.format(extension, exc))
+
+@client.event
+async def on_ready():
+	print("logged in as {0.user.name}\n ID: {0.user.id}".format(client))
+
 
 if __name__ == "__main__":
+	print ('found extension')
 	for extension in startup_extensions:
 		try:
 			client.load_extension(extension)
