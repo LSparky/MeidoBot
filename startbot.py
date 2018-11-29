@@ -7,7 +7,8 @@ startup_extensions = [
 "cogs.events",
 "cogs.no_erp",
 "cogs.clever",
-"cogs.reddit"
+"cogs.reddit",
+"cogs.BTC"
 ]
 
 client = discord.Client()
@@ -15,9 +16,8 @@ client = discord.Client()
 with open('token.json') as token_file:
 	data = json.load(token_file)
 token = data['token']
-
-
-client = commands.Bot(command_prefix=('$','maid.'),
+prefix = data['prefix']
+client = commands.Bot(command_prefix=(prefix),
 					pm_help=True,
 					case_insensitive=True,
 					owner_id=115895386606010376)
