@@ -28,6 +28,7 @@ class reddit:
 		embed.set_author(name="/r/memes", icon_url="https://images-eu.ssl-images-amazon.com/images/I/418PuxYS63L.png")
 		embed.set_footer(text="Requested by " + ctx.message.author.name, icon_url=ctx.message.author.avatar_url)
 		await ctx.send(embed=embed)
+		fdfaff
 
 def setup(client):
 	client.add_cog(reddit(client))
