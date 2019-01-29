@@ -15,7 +15,8 @@ startup_extensions = [
 "cogs.husbando",
 "cogs.update",
 "cogs.userinfo",
-"cogs.block_tenor"
+"cogs.block_tenor",
+"cogs.magic8ball"
 ]
 
 client = discord.Client()
