@@ -17,80 +17,80 @@ class magic8ball:
             return
 
         elif answers == 1:
-            embedtext = "It is certain"
-            embedlink = "https://i.imgur.com/hEOQ5JY.png"
+            embedtext = "My reply is no"
+            embedlink = "https://i.imgur.com/LpHdcpM.png"
 
         elif answers == 2:
-            embedtext = "It is decidedly so"
-            embedlink = "https://i.imgur.com/hEOQ5JY.png"
+            embedtext = "Reply hazy, try again"
+            embedlink = "https://i.imgur.com/VtFhNuf.png"
 
         elif answers == 3:
-            embedtext = "Without a doubt"
-            embedlink = "https://i.imgur.com/hEOQ5JY.png"
+            embedtext = "My sources say no"
+            embedlink = "https://i.imgur.com/LpHdcpM.png"
 
         elif answers == 4:
-            embedtext = "Yes - definitely"
-            embedlink = "https://i.imgur.com/hEOQ5JY.png"
-
-        elif answers == 5:
-            embedtext = "You may rely on it"
-            embedlink = "https://i.imgur.com/hEOQ5JY.png"
-
-        elif answers == 6:
-            embedtext = "As I see it, yes"
-            embedlink = "https://i.imgur.com/hEOQ5JY.png"
-
-        elif answers == 7:
             embedtext = "Most likely"
             embedlink = "https://i.imgur.com/hEOQ5JY.png"
 
-        elif answers == 8:
-            embedtext = "Outlook good"
+        elif answers == 5:
+            embedtext = "As I see it, yes"
             embedlink = "https://i.imgur.com/hEOQ5JY.png"
 
-        elif answers == 9:
+        elif answers == 6:
             embedtext = "Yes"
             embedlink = "https://i.imgur.com/hEOQ5JY.png"
 
+        elif answers == 7:
+            embedtext = "Cannot predict now"
+            embedlink = "https://i.imgur.com/VtFhNuf.png"
+
+        elif answers == 8:
+            embedtext = "Don't count on it"
+            embedlink = "https://i.imgur.com/LpHdcpM.png"
+
+        elif answers == 9:
+            embedtext = "Outlook not so good"
+            embedlink = "https://i.imgur.com/LpHdcpM.png"
+
         elif answers == 10:
-            embedtext = "Signs point to yes"
+            embedtext = "Without a doubt"
             embedlink = "https://i.imgur.com/hEOQ5JY.png"
 
         elif answers == 11:
-            embedtext = "Reply hazy, try again"
-            embedlink = "https://i.imgur.com/VtFhNuf.png"
+            embedtext = "It is certain"
+            embedlink = "https://i.imgur.com/hEOQ5JY.png"
 
         elif answers == 12:
             embedtext = "Ask again later"
             embedlink = "https://i.imgur.com/VtFhNuf.png"
 
         elif answers == 13:
-            embedtext = "Better not tell you now"
-            embedlink = "https://i.imgur.com/VtFhNuf.png"
+            embedtext = "It is decidedly so"
+            embedlink = "https://i.imgur.com/hEOQ5JY.png"
 
         elif answers == 14:
-            embedtext = "Cannot predict now"
-            embedlink = "https://i.imgur.com/VtFhNuf.png"
+            embedtext = "Yes - definitely"
+            embedlink = "https://i.imgur.com/hEOQ5JY.png"
 
         elif answers == 15:
+            embedtext = "You may rely on it"
+            embedlink = "https://i.imgur.com/hEOQ5JY.png"
+
+        elif answers == 16:
             embedtext = "Concentrate and ask again"
             embedlink = "https://i.imgur.com/VtFhNuf.png"
 
-        elif answers == 16:
-            embedtext = "Don't count on it"
-            embedlink = "https://i.imgur.com/LpHdcpM.png"
-
         elif answers == 17:
-            embedtext = "My reply is no"
-            embedlink = "https://i.imgur.com/LpHdcpM.png"
+            embedtext = "Outlook good"
+            embedlink = "https://i.imgur.com/hEOQ5JY.png"
 
         elif answers == 18:
-            embedtext = "My sources say no"
-            embedlink = "https://i.imgur.com/LpHdcpM.png"
+            embedtext = "Better not tell you now"
+            embedlink = "https://i.imgur.com/VtFhNuf.png"
 
         elif answers == 19:
-            embedtext = "Outlook not so good"
-            embedlink = "https://i.imgur.com/LpHdcpM.png"
+            embedtext = "Signs point to yes"
+            embedlink = "https://i.imgur.com/hEOQ5JY.png"
 
         elif answers == 20:
             embedtext = "Very doubtful"
